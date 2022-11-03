@@ -1,0 +1,134 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App should match snapshot 1`] = `
+<div
+  className=".container-xxl"
+  data-testid="app"
+>
+  <nav
+    className=".container-fluid"
+    data-testid="nav"
+  >
+    <h3>
+      Toolhub Records
+    </h3>
+    <div>
+      <ul
+        className="#nav-list"
+        id="nav-list"
+      >
+        <li>
+          <a
+            className="active"
+            href="/"
+            onClick={[Function]}
+          >
+            Home
+          </a>
+        </li>
+        <li>
+          <a
+            href="/dashboard"
+            onClick={[Function]}
+          >
+            Dashboard
+          </a>
+        </li>
+        <li>
+          <a
+            href="/leaderboard"
+            onClick={[Function]}
+          >
+            Leaderboard
+          </a>
+        </li>
+      </ul>
+    </div>
+    <div
+      id="mobile"
+      onClick={[Function]}
+    >
+      <i
+        className="fas fa-bars"
+        id="bar"
+      />
+    </div>
+  </nav>
+  <section
+    className=".container-xxl"
+  >
+    <div
+      className="mb-3 input-group"
+    >
+      <input
+        aria-describedby="basic-addon2"
+        aria-label="search tool"
+        className="form-control"
+        placeholder="search tool"
+      />
+      <button
+        className="button btn btn-outline-secondary"
+        disabled={false}
+        id="button-addon2"
+        type="button"
+      >
+        search
+      </button>
+    </div>
+    <p
+      className="home-info"
+    >
+      The Wikimedia tool below is missing some important information. can you find it?
+    </p>
+    <p>
+      Click 
+      <span>
+        I got this
+      </span>
+       to add this information or
+       
+      <span>
+        Next
+      </span>
+       to see another tool
+    </p>
+    <div
+      className="card"
+    >
+      <div
+        className="card-header"
+      >
+        Tool:
+      </div>
+      <div
+        className="card-body"
+      >
+        <div
+          className="card-title h5"
+        >
+          Pywikibot
+        </div>
+        <p
+          className="card-text"
+        >
+          api_url
+        </p>
+        <button
+          className="btn btn-primary"
+          disabled={false}
+          type="button"
+        >
+          I Got this!
+        </button>
+        <button
+          className="btn btn-primary"
+          disabled={false}
+          type="button"
+        >
+          Next Tool
+        </button>
+      </div>
+    </div>
+  </section>
+</div>
+`;
