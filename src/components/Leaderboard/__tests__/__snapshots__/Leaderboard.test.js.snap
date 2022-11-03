@@ -1,0 +1,91 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Navbar should match snapshot 1`] = `
+Array [
+  <nav
+    className=".container-fluid"
+    data-testid="nav"
+  >
+    <h3>
+      Toolhub Records
+    </h3>
+    <div>
+      <ul
+        className="#nav-list"
+        id="nav-list"
+      >
+        <li>
+          <a
+            className="active"
+            href="/"
+            onClick={[Function]}
+          >
+            Home
+          </a>
+        </li>
+        <li>
+          <a
+            href="/dashboard"
+            onClick={[Function]}
+          >
+            Dashboard
+          </a>
+        </li>
+        <li>
+          <a
+            href="/leaderboard"
+            onClick={[Function]}
+          >
+            Leaderboard
+          </a>
+        </li>
+      </ul>
+    </div>
+    <div
+      id="mobile"
+      onClick={[Function]}
+    >
+      <i
+        className="fas fa-bars"
+        id="bar"
+      />
+    </div>
+  </nav>,
+  <section
+    className=".container-xxl"
+    data-testid="leaderboard"
+  >
+    <h1
+      className="leaderboard"
+    >
+      Leaderboard
+    </h1>
+    <p
+      className="brief"
+    >
+      These users helped improve toolhub records in the last 30 days!
+    </p>
+    <table
+      className="table table-striped table-bordered table-hover"
+    >
+      <thead>
+        <tr>
+          <th>
+            #
+          </th>
+          <th>
+            Name
+          </th>
+          <th>
+            username
+          </th>
+          <th>
+            Score
+          </th>
+        </tr>
+      </thead>
+      <tbody />
+    </table>
+  </section>,
+]
+`;

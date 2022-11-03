@@ -10,7 +10,7 @@ const Navbar = () => {
   };
 
   return (
-    <nav className=".container-fluid">
+    <nav className=".container-fluid" data-testid="nav">
       <h3>Toolhub Records</h3>
       <div>
         <ul id="nav-list" className={state ? "#nav-list active" : "#nav-list"}>
