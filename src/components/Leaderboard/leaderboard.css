@@ -1,0 +1,29 @@
+Table{
+ width:80%;
+ margin: 1rem 0;
+ border-bottom:2px solid var(--grey-600);
+}
+ .brief{
+ color:var(--grey-500)
+}
+th{
+ text-align: start;
+}
+
+tr th{
+ border-bottom: 2px solid var(--grey-600)
+}
+
+td{
+ padding:0 0.5rem;
+ cursor: pointer;
+}
+tbody tr:hover{
+ background-color: var(--grey-300);
+}
+
+@media only screen and (max-width:400px) {
+ Table{
+  width:100%
+ }
+}

@@ -1,0 +1,53 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Navbar should match snapshot 1`] = `
+<nav
+  className=".container-fluid"
+  data-testid="nav"
+>
+  <h3>
+    Toolhub Records
+  </h3>
+  <div>
+    <ul
+      className="#nav-list"
+      id="nav-list"
+    >
+      <li>
+        <a
+          className="active"
+          href="/"
+          onClick={[Function]}
+        >
+          Home
+        </a>
+      </li>
+      <li>
+        <a
+          href="/dashboard"
+          onClick={[Function]}
+        >
+          Dashboard
+        </a>
+      </li>
+      <li>
+        <a
+          href="/leaderboard"
+          onClick={[Function]}
+        >
+          Leaderboard
+        </a>
+      </li>
+    </ul>
+  </div>
+  <div
+    id="mobile"
+    onClick={[Function]}
+  >
+    <i
+      className="fas fa-bars"
+      id="bar"
+    />
+  </div>
+</nav>
+`;
