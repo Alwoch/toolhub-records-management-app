@@ -15,7 +15,7 @@ const Profile = () => {
 
   return (
     <>
-      <Table striped bordered hover>
+      <Table className="w-75" striped bordered hover>
         <thead>
           <tr>
             <th>#</th>

@@ -11,7 +11,7 @@ const Navbar = () => {
 
   return (
     <nav className=".container-fluid" data-testid="nav">
-      <h3>Toolhub Records</h3>
+      <h3>Toolhub</h3>
       <div>
         <ul id="nav-list" className={state ? "#nav-list active" : "#nav-list"}>
           <li>
@@ -28,7 +28,7 @@ const Navbar = () => {
         </ul>
       </div>
       <div id="mobile" onClick={handleState}>
-        <i id="bar" className={state ? "fas fa-times" : "fas fa-bars"}></i>
+        <i id="bar" aria-hidden="false" className={state ? "fas fa-times" : "fas fa-bars"}></i>
       </div>
     </nav>
   );

@@ -1,3 +1,85 @@
-InputGroup{
- padding:0.5rem;
+main{
+ min-height: 100vh;
+ height:100vh;
+ max-height: 100vh;
+ /* background-color: blue; */
+ /* position: relative; */
+}
+.navbar-div{
+position:absolute;
+top:0;
+left:0;
+width:100%;
+}
+
+.home-section{
+ display:flex;
+ flex-direction:column;
+ align-items: center;
+ justify-content: center;
+ width:100%;
+ height:100%;
+ margin:0 auto;
+ padding:0 10px;
+}
+.taskdiv{
+ width:100%;
+}
+
+.button-div{
+ width:100%;
+ display:flex;
+ justify-content: center;
+ align-items: center;
+ padding:10px 20px;
+margin-bottom: 10px;
+
+}
+
+.button-div>button{
+ width:50%;
+ margin:0 20px;
+ padding:20px 5px;
+ background: none;
+ border:none;
+ color:white;
+ font-size: 1.5rem;
+}
+
+.button-div>button:hover{
+ box-shadow: var(--shadow-4);
+}
+
+button.green{
+background-color: var(--green-dark);
+border-radius:0.5rem;
+border:2px solid var(--grey-900)
+}
+
+button.blue{
+background-color: var(--primary-700);
+border-radius:0.5rem;
+border:2px solid var(--primary-900)
+}
+
+.search-tool,.search{
+ width:100%;
+}
+.search{
+ padding:10px 20px;
+ outline:none;
+ border:1px solid #aaa;
+ border-radius:5px;
+ color:#999;
+}
+
+@media screen and  (min-width:992px) {
+ .home-section{
+  width:60%;
+  padding:0;
+ }
+ .button-div{
+  padding:10px 60px;
+ }
+ 
 }

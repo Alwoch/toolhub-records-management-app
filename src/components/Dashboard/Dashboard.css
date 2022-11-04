@@ -1,7 +1,7 @@
 .dashboard{
 background-color: var(--grey-100);
 box-shadow: var(--shadow-2);
-max-width:70vw;
+max-width:70%;
 margin: auto;
 margin-top: 2rem;
 margin-bottom: 2rem;
@@ -54,5 +54,6 @@ border-left: 5px solid var(--grey-700);
   grid-template-columns:auto;
   justify-content: center;
   border: none;
+  max-width:100%
  }
 }
